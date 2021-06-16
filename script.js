@@ -4,11 +4,10 @@ const minutesElement = document.querySelector("#minutes");
 const secondsElement = document.querySelector("#seconds");
 const monthsElement = document.querySelector("#months");
 
-// Get specific date and time in milliseconds from 1970 UTC
-let countDownDate = new Date("Aug 31, 2021").getTime();
+let countDownDate = new Date("May 05, 2022").getTime();
 
 setInterval(() => {
-  // Get today's date and time in milliseconds from 1970 UTC
+
   let now = new Date().getTime();
 
   let distance = countDownDate - now;
